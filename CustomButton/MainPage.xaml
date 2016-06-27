@@ -1,0 +1,13 @@
+﻿<Page
+    x:Class="CustomButton.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CustomButton"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Button x:Name="btn1" Width="200"  Height="150" Content="Click me" FontSize="30" Foreground="YellowGreen" HorizontalAlignment="Left" Style="{StaticResource CircleButton}"/>
+    </StackPanel>
+    
+</Page>
